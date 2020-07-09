@@ -1,0 +1,27 @@
+@media(min-width: 769px) {
+  body {
+    text-align: start;
+  }
+
+  .sport_app__on_mobiles {
+    display: block;
+  }
+
+  .sport_app {
+    display: flex;
+  }
+
+  .sport_app__explanation--heading {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+  }
+
+  .sport_app__explanation--download_navigation {
+    margin-inline-end: 12rem;
+  }
+
+  .sport_app__download_navigation__list_item--link {
+    margin-inline-end: 1rem;
+  }
+}
