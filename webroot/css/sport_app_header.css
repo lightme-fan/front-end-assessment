@@ -1,3 +1,9 @@
-.sport_app__heading--logo_content__link {
-  
+.sport_app__heading--logo {
+  padding-block-start: 30px;
+  margin: 0;
+}
+
+.sport_app__heading--logo__link_image {
+  width: 120px;
+  height: 60px;
 }
