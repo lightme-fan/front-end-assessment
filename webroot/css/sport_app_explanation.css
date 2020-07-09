@@ -1,7 +1,5 @@
 .sport_app__explanation--heading{
   font-family: 'Lato';
-  font-weight: bold;
-  font-style: normal;
   font-size: 30px;
   line-height: 40px;
   color: black;
@@ -11,8 +9,6 @@
 
 .sport_app__explanation--content {
   font-family: 'Lato';
-  font-weight: normal;
-  font-style: normal;
   font-size: 16px;
   line-height: 23px;
   color: #4F4F4F;
