@@ -1,8 +1,14 @@
 body {
   max-width: 360px;
-  max-height: 525px;
+  text-align: center;
+  background-color: #E5E5E5;;
+}
+
+.sport_app_masthead {
   background-color: rgb(244, 246, 249);
-  border: 1px solid;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  height: 525px;
 }
 
 a {
