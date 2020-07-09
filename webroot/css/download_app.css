@@ -1,3 +1,7 @@
+.sport_app__explanation--download {
+  padding-block-end: 60px;
+}
+
 .sport_app__explanation--download_navigation {
   display: flex;
   justify-content: space-between;
