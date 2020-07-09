@@ -4,7 +4,6 @@
       url('Lato-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -13,5 +12,4 @@
       url('Lato-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
