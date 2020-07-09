@@ -1,8 +1,9 @@
-.download_navigation__list_item {
-  background-color: black;
-  text-align: center;
+.sport_app__explanation--download_navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
-.download_navigation__list_item--link {
-  color: white;
+.sport_app__download_navigation__list_item {
+  margin: 0;
 }
