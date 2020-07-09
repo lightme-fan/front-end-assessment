@@ -1,0 +1,8 @@
+.download_navigation__list_item {
+  background-color: black;
+  text-align: center;
+}
+
+.download_navigation__list_item--link {
+  color: white;
+}
