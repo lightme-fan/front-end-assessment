@@ -1,14 +1,14 @@
 .sport_app__explanation--download {
-  padding-block-end: 60px;
+  padding-block-end: calc(var(--padding) * 4);
 }
 
 .sport_app__explanation--download_navigation {
-  display: flex;
+  display: var(--display);
   justify-content: space-around;
-  margin: 0;
-  padding: 0;
+  margin: calc(var(--margin) * 0);
+  padding: calc(var(--padding) * 0);
 }
 
 .sport_app__download_navigation__list_item {
-  margin: 0;
+  margin: calc(var(--margin) * 0);
 }
