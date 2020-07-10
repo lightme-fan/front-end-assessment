@@ -1,16 +1,18 @@
 @media(min-width: 769px) {
-  body {
-    text-align: start;
-  }
 
   .sport_app_masthead {
     background-image: url('../img/bg_header.png');
     background-repeat: no-repeat;
-    background-position: 115% 0%;
+    background-position: 100% 0%;
+  }
+
+  .sport_app {
+    text-align: left;
+    margin-inline-start: 163px;
   }
 
   .sport_app__explanation--heading {
-    font-size: 36px;
+    font-size: 35px;
     line-height: 48px;
     letter-spacing: 0.03em;
   }
