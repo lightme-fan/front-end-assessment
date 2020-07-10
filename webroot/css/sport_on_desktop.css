@@ -28,6 +28,6 @@
   }
 
   .sport_app__download_navigation__list_item {
-    margin-inline-end: 1rem;
+    margin-inline-end: var(--margin);
   }
 }
