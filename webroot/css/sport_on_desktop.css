@@ -1,23 +1,34 @@
-@media(min-width: 769px) {
+@media(min-width: 1025px) {
 
   .sport_app_masthead {
     background-image: url('../img/bg_header.png');
     background-repeat: no-repeat;
-    background-position: 90% 0%;
+    background-position: 120% 130%;
+    background-color: white;
   }
 
   .sport_app {
-    text-align: left;
-    margin-inline-start: 163px;
+    transform: translateX(30%);
+    text-align: start;
+    /* margin-inline-start: 4rem; */
   }
 
   .sport_app__explanation--heading {
-    font-size: 35px;
+    font-size: 33px;
     line-height: 48px;
     letter-spacing: 0.03em;
   }
 
-  .sport_app__download_navigation__list_item--link {
+  .sport_app__explanation--content {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .sport_app__explanation--download_navigation {
+    justify-content: unset;
+  }
+
+  .sport_app__download_navigation__list_item {
     margin-inline-end: 1rem;
   }
 }
