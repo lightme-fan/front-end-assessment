@@ -1,13 +1,14 @@
 body {
   text-align: center;
-  background-color: #E5E5E5;;
+   background-color: #E5E5E5;
 }
 
 .sport_app_masthead {
-  background-color: rgb(244, 246, 249);
+  /* background-color: rgb(244, 246, 249); */
   padding-inline-start: 20px;
   padding-inline-end: 20px;
   height: 525px;
+
 }
 
 a {
