@@ -5,11 +5,16 @@ body {
 
 .sport_app_masthead {
   background-color: rgb(244, 246, 249);
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
   height: 525px;
 
 }
+
+.sport_app {
+  max-width: 500px;
+}
+
 
 a {
   text-decoration: none;
@@ -18,7 +23,3 @@ a {
 ul {
   list-style: none;
  }
-
-.sport_app {
-  max-width: 500px;
-}
