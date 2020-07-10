@@ -1,6 +1,6 @@
 .sport_app__heading--logo {
-  padding-block-start: 30px;
-  margin: 0;
+  padding-block-start: calc(var(--padding) * 3);
+  margin: calc(var(--margin) * 0);
 }
 
 .sport_app__heading--logo__link_image {
