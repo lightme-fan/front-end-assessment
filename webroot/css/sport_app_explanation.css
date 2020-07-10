@@ -12,6 +12,6 @@
   font-size: 16px;
   line-height: 26px;
   color: #4F4F4F;
-  margin: 0;
-  padding-block-end: 50px;
+  margin: calc(var(--margin) * 0);
+  padding-block-end: calc(var(--padding) * 3);
 }
