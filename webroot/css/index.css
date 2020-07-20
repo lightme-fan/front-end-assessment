@@ -1,7 +1,7 @@
-@import "sport_app_header.css";
+@import "heading.css";
 @import "default.css";
 @import "download_app.css";
 @import "font_face.css";
-@import "sport_app_explanation.css";
-@import "sport_on_desktop.css";
+@import "explanation.css";
+@import "sport_app_on_desktop.css";
 @import "custom_property.css";

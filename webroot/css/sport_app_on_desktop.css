@@ -1,24 +1,24 @@
-@media(min-width: 1040px) {
+@media(min-width: 1025px) {
 
-  .sport_app_masthead {
+  .masthead {
     background-image: url('../img/bg_header.png');
     background-repeat: no-repeat;
     background-position: 115% 130%;
-    background-color: white;
+    background-color: rgb(244, 246, 249);
   }
 
   .sport_app {
-    transform: translateX(50%);
+    transform: translateX(25%);
     text-align: start;
   }
 
-  .sport_app__explanation--heading {
+  .masthead_heading--logo {
     font-size: 33px;
     line-height: 48px;
     letter-spacing: 0.03em;
   }
 
-  .sport_app__explanation--content {
+  .desciption {
     font-size: 15px;
     line-height: 28px;
   }

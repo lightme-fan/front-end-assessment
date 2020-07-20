@@ -1,9 +1,9 @@
-.sport_app__heading--logo {
+.masthead__heading--logo {
   padding-block-start: calc(var(--padding) * 3);
   margin: calc(var(--margin) * 0);
 }
 
-.sport_app__heading--logo__link_image {
+.masthead_heading__image {
   width: 120px;
   height: 60px;
 }

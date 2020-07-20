@@ -1,14 +1,31 @@
-.sport_app__explanation--download {
+.download {
   padding-block-end: calc(var(--padding) * 4);
 }
 
-.sport_app__explanation--download_navigation {
+.download__navigation {
   display: var(--display);
   justify-content: space-around;
+  flex-direction: row;
   margin: calc(var(--margin) * 0);
   padding: calc(var(--padding) * 0);
 }
 
-.sport_app__download_navigation__list_item {
-  margin: calc(var(--margin) * 0);
+.download__list_item {
+  padding: calc(var(--padding) * 3);
+}
+
+.app_store {
+  background-image: url('../img/apple_store.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.google_play {
+  background-image: url('../img/google_play.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.download__list_item__link {
+  color: transparent;
 }
