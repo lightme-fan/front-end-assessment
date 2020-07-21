@@ -4,9 +4,9 @@
 
 .download__navigation {
   display: var(--display);
-  justify-content: space-around;
+  /* justify-content: space-between; */
   flex-direction: row;
-  margin: calc(var(--margin) * 0);
+  margin-inline-start: 1rem;
   padding: calc(var(--padding) * 0);
 }
 
@@ -24,6 +24,7 @@
   background-image: url('../img/google_play.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin-inline-start: 2rem;
 }
 
 .download__list_item__link {
