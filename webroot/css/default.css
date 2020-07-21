@@ -24,3 +24,7 @@ a {
 ul {
   list-style: none;
  }
+
+ .bg-header {
+   display: none;
+ }

@@ -1,15 +1,12 @@
 @media(min-width: 1025px) {
 
-  .masthead {
-    background-image: url('../img/bg_header.png');
-    background-repeat: no-repeat;
-    background-position: 115% 130%;
-    background-color: rgb(244, 246, 249);
+  .bg-header {
+    display: block;
+    margin-block-start: -16px;
   }
 
-  .sport_app {
-    transform: translateX(25%);
-    text-align: start;
+  .masthead {
+    display: flex;
   }
 
   .masthead_heading--logo {
@@ -23,11 +20,16 @@
     line-height: 28px;
   }
 
-  .sport_app__explanation--download_navigation {
-    justify-content: unset;
+  .explanation {
+    text-align: start;
+    margin-inline-start: 6rem;
   }
 
   .sport_app__download_navigation__list_item {
     margin-inline-end: var(--margin);
   }
+}
+
+.download {
+  margin: 0;
 }
