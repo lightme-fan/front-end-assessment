@@ -4,7 +4,7 @@
 
 .download__navigation {
   display: var(--display);
-  /* justify-content: space-between; */
+  justify-content: space-around;
   flex-direction: row;
   margin-inline-start: 1rem;
   padding: calc(var(--padding) * 0);
