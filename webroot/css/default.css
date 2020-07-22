@@ -1,14 +1,17 @@
 body {
   text-align: center;
-   background-color: #E5E5E5;
+   /* background-color: #E5E5E5; */
    margin: 0;
 }
 
-.sport_app_masthead {
+.masthead {
+  /* max-width: 1477px; */
+  /* transform: translate(10%, 10%); */
+  /* margin: auto; */
   background-color: rgb(244, 246, 249);
   padding-inline-start: var(--padding);
   padding-inline-end: var(--padding);
-  height: 525px;
+  /* max-height: 700px; */
 
 }
 
