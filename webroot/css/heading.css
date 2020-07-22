@@ -1,6 +1,7 @@
-.masthead__heading--logo {
-  padding-block-start: calc(var(--padding) * 3);
-  margin: calc(var(--margin) * 0);
+.masthead_heading--logo {
+  padding-block-start: 30px;
+  padding-block-end: 50px;
+  margin: 0;
 }
 
 .masthead_heading__image {
