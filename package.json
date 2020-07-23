@@ -17,6 +17,7 @@
     "node-sass": "^4.14.1"
   },
   "scripts": {
-    "css": "node-sass scss/index.scss -o webroot/css"
+    "css": "node-sass scss/index.scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
   }
 }
