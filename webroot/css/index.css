@@ -1,0 +1,91 @@
+@import url(sport_app_on_desktop.css);
+@import url(custom_property.css);
+.masthead_heading--logo {
+  padding-block-start: 30px;
+  padding-block-end: 50px;
+  margin: 0; }
+
+.masthead_heading__image {
+  width: 120px;
+  height: 60px; }
+
+body {
+  text-align: center;
+  /* background-color: #E5E5E5; */
+  margin: 0; }
+
+.masthead {
+  /* max-width: 1477px; */
+  /* transform: translate(10%, 10%); */
+  /* margin: auto; */
+  background-color: #f4f6f9;
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
+  /* max-height: 700px; */ }
+
+.sport_app {
+  max-width: 500px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.bg-header {
+  display: none; }
+
+.explanation {
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
+
+.download {
+  padding-block-end: calc(var(--padding) * 4); }
+
+.download__navigation {
+  display: var(--display);
+  justify-content: space-around;
+  flex-direction: row;
+  margin-inline-start: 1rem;
+  padding: calc(var(--padding) * 0); }
+
+.download__list_item {
+  padding: calc(var(--padding) * 3); }
+
+.app_store {
+  background-image: url("../img/apple_store.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.google_play {
+  background-image: url("../img/google_play.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-inline-start: 2rem; }
+
+.download__list_item__link {
+  color: transparent; }
+
+@font-face {
+  font-family: 'Lato';
+  src: local("lato bold"), local("lato-bold"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: local("lato regular"), local("lato-regular"), url("../fonts/lato-regular.woff2") format("woff2"), url("../fonts/lato-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+.explanation__link {
+  font-family: 'Lato';
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #333333; }
+
+.description {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 26px; }
