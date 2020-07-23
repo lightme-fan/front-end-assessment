@@ -5,15 +5,16 @@
     margin-block-start: -16px;
   }
 
+
   .masthead {
     text-align: center;
     display: flex;
     padding: 0;
   }
 
-  .masthead::after {
+  /* .masthead::after {
     content: url('../img/bg__header.png');
-  }
+  } */
 
   .masthead_heading--logo {
     font-size: 33px;
@@ -31,8 +32,10 @@
 
   .explanation {
     text-align: start;
-    max-width: 40%;
+    max-width: 1144px;
     margin-inline-start: 158px;
+    margin-inline-end: 158px;
+    /* margin-inline-start: 158px; */
   }
 
   .sport_app__download_navigation__list_item {
