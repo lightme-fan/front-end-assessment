@@ -10,6 +10,9 @@
     text-align: center;
     display: flex;
     padding: 0;
+    background-image: url('../img/bg__header.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
   }
 
   /* .masthead::after {
@@ -31,11 +34,15 @@
   }
 
   .explanation {
+    max-width: 1114px;
     text-align: start;
-    max-width: 1144px;
-    margin-inline-start: 158px;
-    margin-inline-end: 158px;
-    /* margin-inline-start: 158px; */
+    margin-inline-start: auto;
+    margin-inline-end: auto;    /* margin-inline-start: 158px;*/
+  }
+
+  .all_description {
+    max-width: 446px;
+    padding-inline-end: 32rem;
   }
 
   .sport_app__download_navigation__list_item {

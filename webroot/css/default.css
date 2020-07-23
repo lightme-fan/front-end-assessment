@@ -12,7 +12,7 @@ body {
   padding-inline-start: var(--padding);
   padding-inline-end: var(--padding);
   /* max-height: 700px; */
-
+  margin-inline-start: ;
 }
 
 .sport_app {
@@ -31,3 +31,8 @@ ul {
  .bg-header {
    display: none;
  }
+
+.explanation {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
