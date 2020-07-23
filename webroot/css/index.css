@@ -1,5 +1,3 @@
-@import url(sport_app_on_desktop.css);
-@import url(custom_property.css);
 .masthead_heading--logo {
   padding-block-start: 30px;
   padding-block-end: 50px;
@@ -89,3 +87,50 @@ ul {
   font-family: 'Lato';
   font-size: 16px;
   line-height: 26px; }
+
+@media (min-width: 1025px) {
+  .bg-header {
+    display: block;
+    margin-block-start: -16px; }
+  .masthead {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    background-image: url("../img/bg__header.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0; }
+  /* .masthead::after {
+    content: url('../img/bg__header.png');
+  } */
+  .masthead_heading--logo {
+    font-size: 33px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding-block-end: 130px; }
+  .desciption {
+    font-size: 15px;
+    line-height: 28px;
+    padding-block-end: 0; }
+  .explanation {
+    max-width: 1114px;
+    text-align: start;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    /* margin-inline-start: 158px;*/ }
+  .all_description {
+    max-width: 446px;
+    padding-inline-end: 32rem; }
+  .sport_app__download_navigation__list_item {
+    margin-inline-end: var(--margin); }
+  .download__navigation {
+    justify-content: unset;
+    margin: 0; } }
+
+.download {
+  margin: 0; }
+
+:root {
+  --margin: 1rem;
+  --padding: 1rem;
+  --display: flex; }
