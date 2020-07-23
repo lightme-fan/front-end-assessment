@@ -73,3 +73,8 @@ Bonus points will be awarded for code that uses:
 - elegant (thoughtful) solutions to complex problems
 - going the extra mile (putting in more effort to push for high quality or delight)
 
+### Compiling
+
+- When you run this project, you have to have the node-sass, use `**npm i**`, to install the project.
+
+- To compile the project you have use `**npm run css:watch**`.
