@@ -10,7 +10,8 @@
 
 body {
   text-align: center;
-  margin: 0rem; }
+  margin: 0rem;
+  font-family: 'Lato'; }
 
 .masthead {
   background-color: #f4f6f9;
@@ -122,9 +123,27 @@ ul {
 .download {
   margin: 0; }
 
-:root {
-  --margin: 1rem;
-  --padding: 1rem;
-  --display: flex; }
+.start_game {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #00ADEE;
+  margin-block-start: 55px; }
+
+.user_interface {
+  margin: 22px;
+  max-height: 343px; }
+
+.user_interface__heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  padding-block-end: 27px; }
+
+.user_interface__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px; }
 
 /* Interface files */
