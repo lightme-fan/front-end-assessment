@@ -146,4 +146,14 @@ ul {
   font-size: 16px;
   line-height: 23px; }
 
+.footer {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE; }
+
+.interface {
+  background-image: url("../source-materials/imagery/bg_friendly_user_interface.png");
+  background-repeat: no-repeat; }
+
 /* Interface files */
