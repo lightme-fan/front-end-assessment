@@ -8,10 +8,7 @@
   flex-direction: row;
   margin-inline-start: 1rem;
   padding: calc(var(--padding) * 0);
-}
-
-.download__list_item {
-  padding: calc(var(--padding) * 3);
+  padding-block-start: 5rem;
 }
 
 .app_store {
@@ -29,4 +26,5 @@
 
 .download__list_item__link {
   color: transparent;
+  padding: 3rem;
 }

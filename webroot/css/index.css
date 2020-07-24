@@ -45,10 +45,8 @@ ul {
   justify-content: space-around;
   flex-direction: row;
   margin-inline-start: 1rem;
-  padding: calc(var(--padding) * 0); }
-
-.download__list_item {
-  padding: calc(var(--padding) * 3); }
+  padding: calc(var(--padding) * 0);
+  padding-block-start: 5rem; }
 
 .app_store {
   background-image: url("../img/apple_store.svg");
@@ -62,7 +60,8 @@ ul {
   margin-inline-start: 2rem; }
 
 .download__list_item__link {
-  color: transparent; }
+  color: transparent;
+  padding: 3rem; }
 
 @font-face {
   font-family: 'Lato';
