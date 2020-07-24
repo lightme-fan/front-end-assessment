@@ -1,36 +1,34 @@
+@import "variable";
+
 @media(min-width: 1025px) {
 
   .bg-header {
     display: block;
-    margin-block-start: -16px;
+    margin-block-start: $base-margin;
   }
 
 
   .masthead {
-    text-align: center;
-    display: flex;
+    text-align: $base-text-align;
+    display: $base-display;
     padding: 0;
     background-image: url('../img/bg__header.png');
     background-repeat: no-repeat;
     background-position: 100% 0;
   }
 
-  /* .masthead::after {
-    content: url('../img/bg__header.png');
-  } */
-
   .masthead_heading--logo {
     font-size: 33px;
     line-height: 48px;
     letter-spacing: 0.03em;
-    margin: 0;
+    margin: $base-margin * 0;
     padding-block-end: 130px;
   }
 
   .desciption {
     font-size: 15px;
     line-height: 28px;
-    padding-block-end: 0;
+    padding-block-end: $base-padding * 0;
   }
 
   .explanation {
@@ -42,16 +40,16 @@
 
   .all_description {
     max-width: 446px;
-    padding-inline-end: 32rem;
+    padding-inline-end: $base-padding * 32;
   }
 
   .sport_app__download_navigation__list_item {
-    margin-inline-end: var(--margin);
+    margin-inline-end: $base-margin;
   }
 
   .download__navigation {
     justify-content: unset;
-    margin: 0;
+    margin: $base-margin * 0;
   }
 
 }

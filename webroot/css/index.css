@@ -1,7 +1,8 @@
+/* These files are for the header */
 .masthead_heading--logo {
   padding-block-start: 30px;
   padding-block-end: 50px;
-  margin: 0; }
+  margin: 0rem; }
 
 .masthead_heading__image {
   width: 120px;
@@ -9,17 +10,12 @@
 
 body {
   text-align: center;
-  /* background-color: #E5E5E5; */
-  margin: 0; }
+  margin: 0rem; }
 
 .masthead {
-  /* max-width: 1477px; */
-  /* transform: translate(10%, 10%); */
-  /* margin: auto; */
   background-color: #f4f6f9;
-  padding-inline-start: var(--padding);
-  padding-inline-end: var(--padding);
-  /* max-height: 700px; */ }
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem; }
 
 .sport_app {
   max-width: 500px; }
@@ -38,14 +34,14 @@ ul {
   margin-inline-end: auto; }
 
 .download {
-  padding-block-end: calc(var(--padding) * 4); }
+  padding-block-end: 4rem; }
 
 .download__navigation {
-  display: var(--display);
+  display: flex;
   justify-content: space-around;
   flex-direction: row;
   margin-inline-start: 1rem;
-  padding: calc(var(--padding) * 0);
+  padding: 0rem;
   padding-block-start: 5rem; }
 
 .app_store {
@@ -90,7 +86,7 @@ ul {
 @media (min-width: 1025px) {
   .bg-header {
     display: block;
-    margin-block-start: -16px; }
+    margin-block-start: 1rem; }
   .masthead {
     text-align: center;
     display: flex;
@@ -98,19 +94,16 @@ ul {
     background-image: url("../img/bg__header.png");
     background-repeat: no-repeat;
     background-position: 100% 0; }
-  /* .masthead::after {
-    content: url('../img/bg__header.png');
-  } */
   .masthead_heading--logo {
     font-size: 33px;
     line-height: 48px;
     letter-spacing: 0.03em;
-    margin: 0;
+    margin: 0rem;
     padding-block-end: 130px; }
   .desciption {
     font-size: 15px;
     line-height: 28px;
-    padding-block-end: 0; }
+    padding-block-end: 0rem; }
   .explanation {
     max-width: 1114px;
     text-align: start;
@@ -121,10 +114,10 @@ ul {
     max-width: 446px;
     padding-inline-end: 32rem; }
   .sport_app__download_navigation__list_item {
-    margin-inline-end: var(--margin); }
+    margin-inline-end: 1rem; }
   .download__navigation {
     justify-content: unset;
-    margin: 0; } }
+    margin: 0rem; } }
 
 .download {
   margin: 0; }
@@ -133,3 +126,5 @@ ul {
   --margin: 1rem;
   --padding: 1rem;
   --display: flex; }
+
+/* Interface files */

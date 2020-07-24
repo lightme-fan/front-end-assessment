@@ -1,14 +1,16 @@
+@import "variable";
+
 .download {
-  padding-block-end: calc(var(--padding) * 4);
+  padding-block-end: $base-padding * 4;
 }
 
 .download__navigation {
-  display: var(--display);
+  display: $base-display;
   justify-content: space-around;
   flex-direction: row;
-  margin-inline-start: 1rem;
-  padding: calc(var(--padding) * 0);
-  padding-block-start: 5rem;
+  margin-inline-start: $base-margin;
+  padding: $base-padding * 0;
+  padding-block-start: $base-padding * 5;
 }
 
 .app_store {
@@ -26,5 +28,5 @@
 
 .download__list_item__link {
   color: transparent;
-  padding: 3rem;
+  padding: $base-padding * 3;
 }
