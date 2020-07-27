@@ -1,5 +1,8 @@
 @import "variable";
 
+@import "color";
+@import "layout";
+
 /* These files are for the header */
 @import "heading";
 @import "default";
@@ -7,6 +10,6 @@
 @import "font_face";
 @import "explanation";
 @import "header_on_desktop";
-@import "interface";
 
 /* Interface files */
+@import "interface";

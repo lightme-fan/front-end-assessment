@@ -1,17 +1,11 @@
 body {
-  text-align: center;
-   /* background-color: #E5E5E5; */
-   margin: 0;
+  text-align: $base-text-align;
+   margin: $base-margin * 0;
 }
 
 .masthead {
-  /* max-width: 1477px; */
-  /* transform: translate(10%, 10%); */
-  /* margin: auto; */
-  background-color: rgb(244, 246, 249);
-  padding-inline-start: var(--padding);
-  padding-inline-end: var(--padding);
-  /* max-height: 700px; */
+  padding-inline-start: $base-padding;
+  padding-inline-end: $base-padding;
 }
 
 .sport_app {
@@ -20,11 +14,11 @@ body {
 
 
 a {
-  text-decoration: none;
+  text-decoration: $base-text-decoration;
 }
 
 ul {
-  list-style: none;
+  list-style: $list-display;
  }
 
  .bg-header {
