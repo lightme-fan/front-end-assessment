@@ -58,7 +58,8 @@ ul {
 
 .download__list_item__link {
   color: transparent;
-  padding: 3rem; }
+  padding: 2rem;
+  font-size: 13px; }
 
 @font-face {
   font-family: 'Lato';
@@ -123,7 +124,7 @@ ul {
 .download {
   margin: 0; }
 
-.start_game {
+.start_game__link {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
@@ -153,7 +154,7 @@ ul {
   color: #00ADEE; }
 
 .interface {
-  background-image: url("../webroot/img/bg_friendly_user_interface.png");
+  background-image: url("../source-materials/imagery/bg_friendly_user_interface.png");
   background-repeat: no-repeat; }
 
 /* Interface files */
