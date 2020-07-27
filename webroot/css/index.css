@@ -57,12 +57,15 @@ ul {
   margin-inline-start: 2rem; }
 
 .download__list_item {
-  padding: 1rem; }
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 0rem;
+  padding-inline-start: 0rem; }
 
 .download__list_item__link {
   color: transparent;
   padding: 2rem;
-  font-size: 16px; }
+  font-size: 20px; }
 
 @font-face {
   font-family: 'Lato';

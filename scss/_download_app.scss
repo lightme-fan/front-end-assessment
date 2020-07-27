@@ -27,11 +27,15 @@
 }
 
 .download__list_item {
-  padding: $base-padding;
+  padding-block-start: $base-padding;
+  padding-block-end: $base-padding;
+  padding-inline-start: $base-padding * 0;
+  padding-inline-start: $base-padding * 0;
+
 }
 
 .download__list_item__link {
   color: transparent;
   padding: $base-padding * 2;
-  font-size: 16px;
+  font-size: 20px;
 }
