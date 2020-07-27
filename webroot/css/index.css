@@ -1,7 +1,8 @@
+/* These files are for the header */
 .masthead_heading--logo {
   padding-block-start: 30px;
   padding-block-end: 50px;
-  margin: 0; }
+  margin: 0rem; }
 
 .masthead_heading__image {
   width: 120px;
@@ -9,17 +10,13 @@
 
 body {
   text-align: center;
-  /* background-color: #E5E5E5; */
-  margin: 0; }
+  margin: 0rem;
+  font-family: 'Lato'; }
 
 .masthead {
-  /* max-width: 1477px; */
-  /* transform: translate(10%, 10%); */
-  /* margin: auto; */
   background-color: #f4f6f9;
-  padding-inline-start: var(--padding);
-  padding-inline-end: var(--padding);
-  /* max-height: 700px; */ }
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem; }
 
 .sport_app {
   max-width: 500px; }
@@ -38,17 +35,15 @@ ul {
   margin-inline-end: auto; }
 
 .download {
-  padding-block-end: calc(var(--padding) * 4); }
+  padding-block-end: 4rem; }
 
 .download__navigation {
-  display: var(--display);
+  display: flex;
   justify-content: space-around;
   flex-direction: row;
   margin-inline-start: 1rem;
-  padding: calc(var(--padding) * 0); }
-
-.download__list_item {
-  padding: calc(var(--padding) * 3); }
+  padding: 0rem;
+  padding-block-start: 5rem; }
 
 .app_store {
   background-image: url("../img/apple_store.svg");
@@ -61,8 +56,13 @@ ul {
   background-size: 100% 100%;
   margin-inline-start: 2rem; }
 
+.download__list_item {
+  padding: 1rem; }
+
 .download__list_item__link {
-  color: transparent; }
+  color: transparent;
+  padding: 2rem;
+  font-size: 16px; }
 
 @font-face {
   font-family: 'Lato';
@@ -91,7 +91,7 @@ ul {
 @media (min-width: 1025px) {
   .bg-header {
     display: block;
-    margin-block-start: -16px; }
+    margin-block-start: 1rem; }
   .masthead {
     text-align: center;
     display: flex;
@@ -99,38 +99,63 @@ ul {
     background-image: url("../img/bg__header.png");
     background-repeat: no-repeat;
     background-position: 100% 0; }
-  /* .masthead::after {
-    content: url('../img/bg__header.png');
-  } */
   .masthead_heading--logo {
     font-size: 33px;
     line-height: 48px;
     letter-spacing: 0.03em;
-    margin: 0;
+    margin: 0rem;
     padding-block-end: 130px; }
   .desciption {
     font-size: 15px;
     line-height: 28px;
-    padding-block-end: 0; }
+    padding-block-end: 0rem; }
   .explanation {
     max-width: 1114px;
     text-align: start;
     margin-inline-start: auto;
-    margin-inline-end: auto;
-    /* margin-inline-start: 158px;*/ }
+    margin-inline-end: auto; }
   .all_description {
     max-width: 446px;
     padding-inline-end: 32rem; }
   .sport_app__download_navigation__list_item {
-    margin-inline-end: var(--margin); }
+    margin-inline-end: 1rem; }
   .download__navigation {
     justify-content: unset;
-    margin: 0; } }
+    margin: 0rem; } }
 
 .download {
-  margin: 0; }
+  margin: 0rem; }
 
-:root {
-  --margin: 1rem;
-  --padding: 1rem;
-  --display: flex; }
+/* Interface files */
+.start_game__link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #00ADEE;
+  margin-block-start: 55px; }
+
+.user_interface {
+  margin: 22px;
+  max-height: 343px; }
+
+.user_interface__heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  padding-block-end: 27px; }
+
+.user_interface__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px; }
+
+.learn_more {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE; }
+
+.interface {
+  background-image: url("../source-materials/imagery/bg_friendly_user_interface.png");
+  background-repeat: no-repeat; }

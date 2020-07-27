@@ -1,9 +1,13 @@
+@import "variable";
+
 body {
   text-align: $base-text-align;
    margin: $base-margin * 0;
+   font-family: 'Lato';
 }
 
 .masthead {
+  background-color: $masthead-background-color;
   padding-inline-start: $base-padding;
   padding-inline-end: $base-padding;
 }
@@ -18,7 +22,7 @@ a {
 }
 
 ul {
-  list-style: $list-display;
+  list-style: none;
  }
 
  .bg-header {

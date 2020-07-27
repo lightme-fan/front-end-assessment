@@ -1,0 +1,40 @@
+@import "variable";
+
+.start_game__link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #00ADEE;
+  margin-block-start: 55px;
+}
+
+.user_interface {
+  margin: 22px;
+  max-height: 343px;
+}
+
+.user_interface__heading {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  padding-block-end: 27px;
+}
+
+.user_interface__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.learn_more {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+}
+
+.interface {
+  background-image: url('../source-materials/imagery/bg_friendly_user_interface.png');
+  background-repeat: no-repeat;
+}

@@ -1,17 +1,16 @@
+@import "variable";
+
 .download {
-  padding-block-end: calc(var(--padding) * 4);
+  padding-block-end: $base-padding * 4;
 }
 
 .download__navigation {
-  display: var(--display);
+  display: $base-display;
   justify-content: space-around;
   flex-direction: row;
-  margin-inline-start: 1rem;
-  padding: calc(var(--padding) * 0);
-}
-
-.download__list_item {
-  padding: calc(var(--padding) * 3);
+  margin-inline-start: $base-margin;
+  padding: $base-padding * 0;
+  padding-block-start: $base-padding * 5;
 }
 
 .app_store {
@@ -27,6 +26,12 @@
   margin-inline-start: 2rem;
 }
 
+.download__list_item {
+  padding: $base-padding;
+}
+
 .download__list_item__link {
   color: transparent;
+  padding: $base-padding * 2;
+  font-size: 16px;
 }

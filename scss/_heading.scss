@@ -1,7 +1,9 @@
+@import "variable";
+
 .masthead_heading--logo {
   padding-block-start: 30px;
   padding-block-end: 50px;
-  margin: 0;
+  margin: $base-margin * 0;
 }
 
 .masthead_heading__image {
