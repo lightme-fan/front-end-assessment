@@ -37,5 +37,21 @@
 .download__list_item__link {
   color: transparent;
   padding: $base-padding * 2;
-  font-size: 20px;
+  font-size: 16px;
 }
+
+// @mixin background-image($url, $position:100% 100%, $repeat: no-repeat) {
+//   background: {
+//       image: url($url);
+//       position: $position;
+//       repeat: $repeat;
+//   }
+// }
+
+// .app_store {
+//   @include background-image('apple-store.svg');
+// }
+
+// .google_play {
+//   @include background-image('google_play.svg');
+// }

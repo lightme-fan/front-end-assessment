@@ -65,7 +65,7 @@ ul {
 .download__list_item__link {
   color: transparent;
   padding: 2rem;
-  font-size: 20px; }
+  font-size: 16px; }
 
 @font-face {
   font-family: 'Lato';
@@ -160,5 +160,5 @@ ul {
   color: #00ADEE; }
 
 .interface {
-  background-image: url("../source-materials/imagery/bg_friendly_user_interface.png");
+  background-image: url("../img/bg_friendly_user.png");
   background-repeat: no-repeat; }
