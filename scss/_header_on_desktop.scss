@@ -35,7 +35,7 @@
     max-width: 1114px;
     text-align: start;
     margin-inline-start: auto;
-    margin-inline-end: auto;    /* margin-inline-start: 158px;*/
+    margin-inline-end: auto;
   }
 
   .all_description {
@@ -55,5 +55,5 @@
 }
 
 .download {
-  margin: 0;
+  margin: $base-margin * 0;
 }
