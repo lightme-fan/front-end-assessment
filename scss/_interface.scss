@@ -5,12 +5,12 @@
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
-  color: #00ADEE;
-  margin-block-start: 55px;
+  color: $interface-link-color;
+  margin-block-start: $base-margin * 3.5;
 }
 
 .user_interface {
-  margin: 22px;
+  margin: $base-margin * 1.4;
   max-height: 343px;
 }
 
@@ -18,7 +18,7 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 37px;
-  padding-block-end: 27px;
+  padding-block-end: $base-padding * 1.7;
 }
 
 .user_interface__description {
@@ -31,10 +31,14 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  color: #00ADEE;
+  color: $interface-link-color;
+}
+
+.interface_container {
+  padding-block-end: $base-padding * 25;
 }
 
 .interface {
-  background-image: url('../img/bg_friendly_user.png');
-  background-repeat: no-repeat;
+  background-image: url('../img/bg_friendly_user_interface.png');
+  background-position: 50% 3rem;
 }

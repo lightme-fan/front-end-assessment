@@ -136,17 +136,17 @@ ul {
   line-height: 21px;
   text-transform: uppercase;
   color: #00ADEE;
-  margin-block-start: 55px; }
+  margin-block-start: 3.5rem; }
 
 .user_interface {
-  margin: 22px;
+  margin: 1.4rem;
   max-height: 343px; }
 
 .user_interface__heading {
   font-weight: 700;
   font-size: 28px;
   line-height: 37px;
-  padding-block-end: 27px; }
+  padding-block-end: 1.7rem; }
 
 .user_interface__description {
   font-weight: 400;
@@ -159,6 +159,9 @@ ul {
   line-height: 21px;
   color: #00ADEE; }
 
+.interface_container {
+  padding-block-end: 25rem; }
+
 .interface {
-  background-image: url("../img/bg_friendly_user.png");
-  background-repeat: no-repeat; }
+  background-image: url("../img/bg_friendly_user_interface.png");
+  background-position: 50% 3rem; }
