@@ -1,7 +1,7 @@
 @import "variable";
 
 @media(min-width: 1025px) {
-
+// Header
   .bg-header {
     display: block;
     margin-block-start: $base-margin;
@@ -52,6 +52,25 @@
     margin: $base-margin * 0;
   }
 
+  // Inderface on desktop
+  .interface_container {
+    max-width: 480px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    text-align: start;
+    padding-block-end: $base-padding * 10;
+    padding-inline-end: $base-padding * 30;
+  }
+
+  .interface_container::after {
+    display: none;
+  }
+
+  .interface {
+    background-image: url("../img/bg_friendly_user_interface_large.png");
+    background-position: 22rem 60%;
+    background-repeat: no-repeat;
+  }
 }
 
 .download {

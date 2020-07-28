@@ -124,7 +124,20 @@ ul {
     margin-inline-end: 1rem; }
   .download__navigation {
     justify-content: unset;
-    margin: 0rem; } }
+    margin: 0rem; }
+  .interface_container {
+    max-width: 480px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    text-align: start;
+    padding-block-end: 10rem;
+    padding-inline-end: 30rem; }
+  .interface_container::after {
+    display: none; }
+  .interface {
+    background-image: url("../img/bg_friendly_user_interface_large.png");
+    background-position: 22rem 60%;
+    background-repeat: no-repeat; } }
 
 .download {
   margin: 0rem; }
@@ -139,7 +152,6 @@ ul {
   margin-block-start: 3.5rem; }
 
 .user_interface {
-  margin: 1.4rem;
   max-height: 343px; }
 
 .user_interface__heading {
@@ -153,15 +165,26 @@ ul {
   font-size: 16px;
   line-height: 23px; }
 
-.learn_more {
+.interface_container {
+  padding-block-end: 22rem;
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
+
+.interface_container::after {
+  position: absolute;
+  content: '';
+  width: 476px;
+  height: 440px;
+  background-image: url("../img/bg_friendly_user_interface.png");
+  background-repeat: no-repeat;
+  background-position: 39% 62%;
+  transform: translateX(-62%); }
+
+.learn-more {
+  padding-block-start: 2rem; }
+
+.learn_more__link {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   color: #00ADEE; }
-
-.interface_container {
-  padding-block-end: 25rem; }
-
-.interface {
-  background-image: url("../img/bg_friendly_user_interface.png");
-  background-position: 50% 3rem; }

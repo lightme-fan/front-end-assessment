@@ -10,7 +10,6 @@
 }
 
 .user_interface {
-  margin: $base-margin * 1.4;
   max-height: 343px;
 }
 
@@ -27,18 +26,30 @@
   line-height: 23px;
 }
 
-.learn_more {
+.interface_container {
+  padding-block-end: $base-padding * 22;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.interface_container::after {
+  position: absolute;
+  content: '';
+  width: 476px;
+  height: 440px;
+  background-image: url('../img/bg_friendly_user_interface.png');
+  background-repeat: no-repeat;
+  background-position: 39% 62%;
+  transform: translateX(-62%);
+}
+
+.learn-more {
+  padding-block-start: $base-padding * 2;
+}
+
+.learn_more__link {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   color: $interface-link-color;
-}
-
-.interface_container {
-  padding-block-end: $base-padding * 25;
-}
-
-.interface {
-  background-image: url('../img/bg_friendly_user_interface.png');
-  background-position: 50% 3rem;
 }
