@@ -166,7 +166,7 @@ ul {
   line-height: 23px; }
 
 .interface_container {
-  padding-block-end: 22rem;
+  padding-block-end: 20rem;
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
@@ -188,3 +188,34 @@ ul {
   font-size: 16px;
   line-height: 21px;
   color: #00ADEE; }
+
+/* Features */
+.features {
+  background-color: #FAFAFA;
+  padding-block-start: 3rem; }
+
+.features_container {
+  margin-inline-start: 20px;
+  margin-inline-end: 20px; }
+
+.features_header {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333; }
+
+.feature__experience_navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem; }
+
+.feature__experience_list-item {
+  margin-block-start: 2rem; }
+
+svg {
+  width: 37px;
+  height: 30px; }
+
+.icon {
+  margin: 0rem; }

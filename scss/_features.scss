@@ -1,0 +1,37 @@
+@import "variable";
+.features {
+  background-color: #FAFAFA;
+  padding-block-start: $base-padding * 3;
+}
+
+.features_container {
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
+.features_header {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: $base-color;
+}
+
+.feature__experience_navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $base-padding * 0;
+}
+
+.feature__experience_list-item {
+  margin-block-start: $base-margin * 2;
+}
+
+svg {
+  width: 37px;
+  height: 30px;
+}
+
+.icon {
+  margin: $base-margin * 0;
+}
