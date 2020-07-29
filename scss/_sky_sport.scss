@@ -1,0 +1,56 @@
+@import "variable";
+
+.sky_sport {
+  max-height: 409px;
+}
+
+.sky_sport__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+.sky_sport__header {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: $base-color;
+  padding-block-end: 52px;
+}
+
+.sport_TV {
+  padding: $base-padding * 2;
+  color: transparent;
+  background-image: url("../img/logo_sports_tv.svg");
+  background-repeat: no-repeat;
+}
+
+.just_sport {
+  padding: $base-padding * 2;
+  color: transparent;
+  background-image: url("../img/logo_sports_channel.svg");
+  background-repeat: no-repeat;
+}
+
+.nbc {
+  padding: 2rem;
+  color: transparent;
+  background-image: url("../img/logo_nbc_sports.svg");
+  background-repeat: no-repeat;
+}
+
+.designer {
+  padding: 2rem;
+  color: transparent;
+  background-image: url("../img/logo_designer_technology.svg");
+  background-repeat: no-repeat;
+}
+
+.dn {
+  padding: 2rem;
+  color: transparent;
+  background-image: url("../img/logo_designer_news.svg");
+  background-repeat: no-repeat;
+}
