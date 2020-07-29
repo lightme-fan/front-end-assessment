@@ -9,10 +9,18 @@
   margin-block-start: $base-margin * 3.5;
 }
 
+.interface {
+  max-height: 930px;
+}
+
 .user_interface {
   max-height: 343px;
 }
 
+.start_game {
+  padding-block-start: 80px;
+  padding-block-end: 27px;
+}
 .user_interface__heading {
   font-weight: 700;
   font-size: 28px;
@@ -28,8 +36,8 @@
 
 .interface_container {
   padding-block-end: $base-padding * 20;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  margin-inline-start: 22px;
+  margin-inline-end: 22px;
 }
 
 .interface_container::after {

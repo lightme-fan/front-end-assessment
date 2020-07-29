@@ -151,8 +151,15 @@ ul {
   color: #00ADEE;
   margin-block-start: 3.5rem; }
 
+.interface {
+  max-height: 930px; }
+
 .user_interface {
   max-height: 343px; }
+
+.start_game {
+  padding-block-start: 80px;
+  padding-block-end: 27px; }
 
 .user_interface__heading {
   font-weight: 700;
@@ -167,8 +174,8 @@ ul {
 
 .interface_container {
   padding-block-end: 20rem;
-  margin-inline-start: auto;
-  margin-inline-end: auto; }
+  margin-inline-start: 22px;
+  margin-inline-end: 22px; }
 
 .interface_container::after {
   position: absolute;
