@@ -203,13 +203,15 @@ ul {
 
 .features_container {
   margin-inline-start: 20px;
-  margin-inline-end: 20px; }
+  margin-inline-end: 20px;
+  padding-block-end: 3rem; }
 
-.features_header {
+.feature_header {
   font-weight: bold;
   font-size: 28px;
   line-height: 37px;
-  color: #333333; }
+  color: #333333;
+  padding-block-start: 81px; }
 
 .feature__experience_navigation {
   display: flex;
