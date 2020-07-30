@@ -255,7 +255,58 @@ ul {
 .sport_footer {
   background-color: #00ADEE; }
 
+.sport_app_footer {
+  text-align: start;
+  padding-block-start: 41px;
+  padding-block-end: 41px;
+  padding-inline-start: 21px;
+  padding-inline-end: 21px;
+  margin: auto; }
+
+.sports_logo {
+  padding-block-end: 1rem; }
+
 .sports_logo__link {
   color: transparent;
   background-image: url("../img/logo_sports_colour.svg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-inline-start: 1rem;
+  padding-inline-end: 3rem;
+  padding-block-end: 10px; }
+
+.twitter {
+  background-image: url("../img/icon_twitter.svg");
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+.facebook {
+  background-image: url("../img/icon_facebook.svg");
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+.instegram {
+  background-image: url("../img/icon_instagram.svg");
+  background-repeat: no-repeat;
+  padding: 10px; }
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 10px;
+  padding: 0rem; }
+
+.social_media_link {
+  color: transparent; }
+
+.more_info {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block-start: 34px; }
+
+.more_info__link {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px; }
