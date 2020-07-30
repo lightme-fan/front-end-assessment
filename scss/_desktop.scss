@@ -70,8 +70,10 @@
   }
 
   /* Feature*/
+
   .features_container {
     background-color: #00ADEE;
+    color: #FFFFFF;
   }
 
   .feature__experience_navigation {
@@ -79,6 +81,42 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     grid-gap: 1rem;
+    list-style-type: initial;
+  }
+  .feature_icon {
+    color: #FFFFFF;
+  }
+
+  /* Sky sport */
+  .sky_sports_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Footer */
+  .sport_app_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-width: calc(100% - calc(136px * 2));
+  }
+
+  .sports_logo {
+    order: 1;
+    margin: 0;
+  }
+
+  .social_media {
+    order: 3;
+  }
+
+  .more_info {
+    order: 2;
+    padding: 0;
+    margin: 0;
   }
 }
 

@@ -1,6 +1,9 @@
 @import "variable";
 .features {
   background-color: #FAFAFA;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .features_container {
@@ -14,14 +17,10 @@
   font-weight: bold;
   font-size: 28px;
   line-height: 37px;
-  color: $base-color;
   padding-block-start: 81px;
 }
 
 .feature__experience_navigation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: $base-padding * 0;
 }
 
