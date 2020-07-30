@@ -130,14 +130,19 @@ ul {
     margin-inline-start: auto;
     margin-inline-end: auto;
     text-align: start;
-    padding-block-end: 10rem;
+    padding-block-end: unset;
     padding-inline-end: 30rem; }
-  .interface_container::after {
-    display: none; }
   .interface {
-    background-image: url("../img/bg_friendly_user_interface_large.png");
-    background-position: 22rem 60%;
-    background-repeat: no-repeat; } }
+    background-position-x: calc(100% + 768px);
+    background-position-y: calc(100% + 652px); }
+  /* Feature*/
+  .features_container {
+    background-color: #00ADEE; }
+  .feature__experience_navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-gap: 1rem; } }
 
 .download {
   margin: 0rem; }
@@ -150,9 +155,6 @@ ul {
   text-transform: uppercase;
   color: #00ADEE;
   margin-block-start: 3.5rem; }
-
-.interface {
-  max-height: 930px; }
 
 .user_interface {
   max-height: 343px; }
@@ -173,19 +175,14 @@ ul {
   line-height: 23px; }
 
 .interface_container {
-  padding-block-end: 20rem;
-  margin-inline-start: 22px;
-  margin-inline-end: 22px; }
+  margin: auto;
+  padding-block-end: 652px; }
 
-.interface_container::after {
-  position: absolute;
-  content: '';
-  width: 476px;
-  height: 440px;
-  background-image: url("../img/bg_friendly_user_interface.png");
+.interface {
+  background-image: url("../img/bg_friendly_user_interface copy.png");
   background-repeat: no-repeat;
-  background-position: 39% 62%;
-  transform: translateX(-62%); }
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px); }
 
 .learn-more {
   padding-block-start: 2rem; }
@@ -198,12 +195,12 @@ ul {
 
 /* Features */
 .features {
-  background-color: #FAFAFA;
-  padding-block-start: 3rem; }
+  background-color: #FAFAFA; }
 
 .features_container {
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-start: 3rem;
   padding-block-end: 3rem; }
 
 .feature_header {
@@ -222,16 +219,14 @@ ul {
 .feature__experience_list-item {
   margin-block-start: 2rem; }
 
-svg {
-  width: 37px;
-  height: 30px; }
-
 .icon {
   margin: 0rem; }
 
 /* sky sport */
 .sky_sport {
-  max-height: 409px; }
+  padding-block-end: 1rem;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem; }
 
 .sky_sport__icons {
   display: flex;
@@ -247,32 +242,20 @@ svg {
   color: #333333;
   padding-block-end: 52px; }
 
-.sport_TV {
-  padding: 2rem;
-  color: transparent;
-  background-image: url("../img/logo_sports_tv.svg");
-  background-repeat: no-repeat; }
+.sport_link {
+  color: transparent; }
 
-.just_sport {
-  padding: 2rem;
-  color: transparent;
-  background-image: url("../img/logo_sports_channel.svg");
-  background-repeat: no-repeat; }
+.operators__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0; }
 
-.nbc {
-  padding: 2rem;
-  color: transparent;
-  background-image: url("../img/logo_nbc_sports.svg");
-  background-repeat: no-repeat; }
+/* Footer */
+.sport_footer {
+  background-color: #00ADEE; }
 
-.designer {
-  padding: 2rem;
+.sports_logo__link {
   color: transparent;
-  background-image: url("../img/logo_designer_technology.svg");
-  background-repeat: no-repeat; }
-
-.dn {
-  padding: 2rem;
-  color: transparent;
-  background-image: url("../img/logo_designer_news.svg");
+  background-image: url("../img/logo_sports_colour.svg");
   background-repeat: no-repeat; }

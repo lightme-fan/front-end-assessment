@@ -9,10 +9,6 @@
   margin-block-start: $base-margin * 3.5;
 }
 
-.interface {
-  max-height: 930px;
-}
-
 .user_interface {
   max-height: 343px;
 }
@@ -35,20 +31,15 @@
 }
 
 .interface_container {
-  padding-block-end: $base-padding * 20;
-  margin-inline-start: 22px;
-  margin-inline-end: 22px;
+  margin: auto;
+  padding-block-end: 652px;
 }
 
-.interface_container::after {
-  position: absolute;
-  content: '';
-  width: 476px;
-  height: 440px;
-  background-image: url('../img/bg_friendly_user_interface.png');
+.interface {
+  background-image: url('../img/bg_friendly_user_interface copy.png');
   background-repeat: no-repeat;
-  background-position: 39% 62%;
-  transform: translateX(-62%);
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px);
 }
 
 .learn-more {

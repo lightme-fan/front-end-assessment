@@ -1,12 +1,12 @@
 @import "variable";
 .features {
   background-color: #FAFAFA;
-  padding-block-start: $base-padding * 3;
 }
 
 .features_container {
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-start: $base-padding * 3;
   padding-block-end: $base-padding * 3;
 }
 
@@ -27,11 +27,6 @@
 
 .feature__experience_list-item {
   margin-block-start: $base-margin * 2;
-}
-
-svg {
-  width: 37px;
-  height: 30px;
 }
 
 .icon {

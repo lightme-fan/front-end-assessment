@@ -58,18 +58,27 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     text-align: start;
-    padding-block-end: $base-padding * 10;
+    padding-block-end: unset;
     padding-inline-end: $base-padding * 30;
-  }
 
-  .interface_container::after {
-    display: none;
   }
 
   .interface {
-    background-image: url("../img/bg_friendly_user_interface_large.png");
-    background-position: 22rem 60%;
-    background-repeat: no-repeat;
+    // background-image: url("../img/bg_friendly_user_interface_large.png");
+    background-position-x: calc(100% + 768px);
+    background-position-y: calc(100% + 652px);
+  }
+
+  /* Feature*/
+  .features_container {
+    background-color: #00ADEE;
+  }
+
+  .feature__experience_navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-gap: 1rem;
   }
 }
 
