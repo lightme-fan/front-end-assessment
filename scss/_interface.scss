@@ -32,14 +32,12 @@
 
 .interface_container {
   margin: auto;
-  padding-block-end: 652px;
-}
-
-.interface {
   background-image: url('../img/bg_friendly_user_interface copy.png');
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: calc(100% + 652px);
+  background-position-y: calc(100% + 487px);
+  background-size: 1580px;
+  padding-bottom: 562px;
 }
 
 .learn-more {

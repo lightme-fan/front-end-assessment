@@ -1,6 +1,10 @@
 @import "variable";
 
 @media(min-width: 1025px) {
+  ul {
+    padding: 0;
+  }
+
 // Header
   .bg-header {
     display: block;
@@ -58,15 +62,9 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     text-align: start;
-    padding-block-end: unset;
-    padding-inline-end: $base-padding * 30;
-
-  }
-
-  .interface {
-    // background-image: url("../img/bg_friendly_user_interface_large.png");
-    background-position-x: calc(100% + 768px);
-    background-position-y: calc(100% + 652px);
+    background-position: calc(50% + 257px) 50%;
+    background-size: 2000px;
+    padding-bottom: 171px;
   }
 
   /* Feature*/
@@ -76,15 +74,32 @@
     color: #FFFFFF;
   }
 
+  .feature__experience {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
   .feature__experience_navigation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     grid-gap: 1rem;
-    list-style-type: initial;
+    text-align: start;
   }
-  .feature_icon {
+
+  .icon {
+    padding-block-start: 16px;
+  }
+
+  .icon::before {
+    content: "• ";
     color: #FFFFFF;
+  }
+
+  .feature__experience_list-item > svg > path {
+    fill: #FFFFFF;
+    margin-inline-end: 1rem;
   }
 
   /* Sky sport */
@@ -95,15 +110,29 @@
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding: 0;
+  }
+
+  .sky_sports__logo {
+    padding-top: 28px;
+  }
+
+  .sky_sport__TV {
+    margin: 0;
   }
 
   .sky_sportps {
     margin: 25px;
   }
 
+  .operators {
+    padding-top: 20px;
+  }
+
   .operators__list_item {
     margin-inline-end: $base-margin * 2;
   }
+
   /* Footer */
   .sport_app_footer {
     display: flex;
