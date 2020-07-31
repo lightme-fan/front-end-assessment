@@ -133,9 +133,12 @@ ul {
     margin-inline-start: auto;
     margin-inline-end: auto;
     text-align: start;
-    background-position: calc(50% + 257px) 50%;
+    background-position-x: calc(50% + 257px);
+    background-position-y: 50%;
     background-size: 2000px;
-    padding-bottom: 171px; }
+    padding-right: 557px; }
+  .interfacing {
+    padding-bottom: 0; }
   /* Feature*/
   .features_container {
     background-color: #00ADEE;
@@ -179,11 +182,14 @@ ul {
     margin-inline-end: 2rem; }
   /* Footer */
   .sport_app_footer {
+    max-width: 1114px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
     max-width: calc(100% - calc(136px * 2)); }
   .sports_logo {
     order: 1;
@@ -225,14 +231,16 @@ ul {
   font-size: 16px;
   line-height: 23px; }
 
+.interfacing {
+  padding-bottom: 562px; }
+
 .interface_container {
   margin: auto;
   background-image: url("../img/bg_friendly_user_interface copy.png");
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: calc(100% + 487px);
-  background-size: 1580px;
-  padding-bottom: 562px; }
+  background-position-y: calc(100% + 490px);
+  background-size: 1580px; }
 
 .learn-more {
   padding-block-start: 2rem; }

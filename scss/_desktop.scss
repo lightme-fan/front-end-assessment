@@ -62,9 +62,15 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     text-align: start;
-    background-position: calc(50% + 257px) 50%;
+    background-position-x: calc(50% + 257px);
+    background-position-y: 50%;
     background-size: 2000px;
-    padding-bottom: 171px;
+    padding-right: 557px;
+
+  }
+
+  .interfacing {
+    padding-bottom: 0;
   }
 
   /* Feature*/
@@ -135,11 +141,14 @@
 
   /* Footer */
   .sport_app_footer {
+    max-width: 1114px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
     max-width: calc(100% - calc(136px * 2));
   }
 
