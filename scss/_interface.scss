@@ -30,17 +30,13 @@
   line-height: 23px;
 }
 
-.interfacing {
-  padding-bottom: 562px;
-}
-
-.interface_container {
-  margin: auto;
+.interface {
+  padding-bottom: 652px;
   background-image: url('../img/bg_friendly_user_interface copy.png');
   background-repeat: no-repeat;
   background-position-x: 50%;
-  background-position-y: calc(100% + 490px);
-  background-size: 1580px;
+  background-position-y: calc(100% + 652px);;
+  background-size: 2000px;
 }
 
 .learn-more {
@@ -52,4 +48,28 @@
   font-size: 16px;
   line-height: 21px;
   color: $interface-link-color;
+}
+
+@media(min-width: 1025px) {
+
+  // Inderface on desktop
+  .interface_container {
+    text-align: start;
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .interface {
+    padding-bottom: 220px;
+    background-image: url('../img/bg_friendly_user_interface copy.png');
+    background-position-x: calc(50% + 350px);
+    background-position-y: 50%;
+    background-size: 2000px;
+  }
+
+  .interfacing {
+    max-width: 546px;
+  }
+
 }

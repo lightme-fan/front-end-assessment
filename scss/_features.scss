@@ -31,3 +31,41 @@
 .icon {
   margin: $base-margin * 0;
 }
+
+@media(min-width: 1025px) {
+
+  /* Feature*/
+
+  .features_container {
+    background-color: #00ADEE;
+    color: #FFFFFF;
+  }
+
+  .feature__experience {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
+  .feature__experience_navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-gap: 1rem;
+    text-align: start;
+  }
+
+  .icon {
+    padding-block-start: 16px;
+  }
+
+  .icon::before {
+    content: "• ";
+    color: #FFFFFF;
+  }
+
+  .feature__experience_list-item > svg > path {
+    fill: #FFFFFF;
+    margin-inline-end: 1rem;
+  }
+}

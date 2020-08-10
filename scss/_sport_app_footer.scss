@@ -70,3 +70,34 @@
   line-height: 21px;
   margin-inline-start: $base_margin;
 }
+
+@media(min-width: 1025px) {
+  /* Footer */
+  .sport_app_footer {
+    max-width: 1114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    max-width: calc(100% - calc(136px * 2));
+  }
+
+  .sports_logo {
+    order: 1;
+    margin: 0;
+  }
+
+  .social_media {
+    order: 3;
+  }
+
+  .more_info {
+    order: 2;
+    padding: 0;
+    margin: 0;
+  }
+}
+

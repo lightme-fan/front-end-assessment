@@ -83,3 +83,36 @@
 .sky_sports__logo {
   padding-top: 1rem;
 }
+
+@media(min-width: 1025px) {
+  /* Sky sport */
+  .sky_sports_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 0;
+  }
+
+  .sky_sports__logo {
+    padding-top: 28px;
+  }
+
+  .sky_sport__TV {
+    margin: 0;
+  }
+
+  .sky_sportps {
+    margin: 25px;
+  }
+
+  .operators {
+    padding-top: 20px;
+  }
+
+  .operators__list_item {
+    margin-inline-end: $base-margin * 2;
+  }
+}
