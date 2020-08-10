@@ -36,15 +36,13 @@
 }
 
 .sport_link {
-  padding-block-start: 16px;
-  padding-block-end: 16px;
   padding-inline-start: 35px;
   padding-inline-end: 35px;
 
 }
 
-.sky_sport__TV {
-  margin-top: 0;
+.sky_sportps {
+  padding: 1rem;
 }
 
 .sport_tv {
@@ -52,11 +50,14 @@
   background-repeat: no-repeat;
   margin-block-start: 0;
   padding-inline-end: 60px;
+  padding-block-end: 14px;
+  margin-top: -17px;
 }
 
 .sport {
   background-image: url('../img/logo_sports_channel.svg');
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 .nbc {
