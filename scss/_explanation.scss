@@ -12,4 +12,11 @@
   font-family: 'Lato';
   font-size: 16px;
   line-height: 26px;
+  padding: $base-padding;
+}
+
+@media(min-width: 1025px) {
+  .description {
+    padding: $base-padding * 0;
+  }
 }

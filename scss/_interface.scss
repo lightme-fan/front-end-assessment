@@ -11,6 +11,7 @@
 
 .user_interface {
   max-height: 343px;
+  padding: $base-padding;
 }
 
 .start_game {
@@ -70,6 +71,10 @@
 
   .interfacing {
     max-width: 546px;
+  }
+
+  .user_interface {
+    padding: $base-padding * 0;
   }
 
 }

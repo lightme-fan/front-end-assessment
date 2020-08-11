@@ -1,8 +1,10 @@
 @import "variable";
 
+.masthead {
+  padding: 0;
+}
+
 .masthead_heading--logo {
-  padding-block-start: 30px;
-  padding-block-end: 50px;
   margin: $base-margin * 0;
 }
 
@@ -16,7 +18,6 @@
     padding: 0;
   }
 
-// Header
   .bg-header {
     display: block;
     margin-block-start: $base-margin;
@@ -26,7 +27,8 @@
   .masthead {
     text-align: $base-text-align;
     display: $base-display;
-    padding: 0;
+    padding-inline-end: 1rem;
+    padding-inline-start: 0;
     background-image: url('../img/bg__header.png');
     background-repeat: no-repeat;
     background-position: 100% 0;
@@ -49,8 +51,7 @@
   .explanation {
     max-width: 1114px;
     text-align: start;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    padding-inline-end: $base-padding * 9;
   }
 
   .all_description {

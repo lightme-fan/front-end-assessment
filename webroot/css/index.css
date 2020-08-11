@@ -1,8 +1,9 @@
 @charset "UTF-8";
 /* These files are for the header */
+.masthead {
+  padding: 0; }
+
 .masthead_heading--logo {
-  padding-block-start: 30px;
-  padding-block-end: 50px;
   margin: 0rem; }
 
 .masthead_heading__image {
@@ -18,7 +19,8 @@
   .masthead {
     text-align: center;
     display: flex;
-    padding: 0;
+    padding-inline-end: 1rem;
+    padding-inline-start: 0;
     background-image: url("../img/bg__header.png");
     background-repeat: no-repeat;
     background-position: 100% 0; }
@@ -35,8 +37,7 @@
   .explanation {
     max-width: 1114px;
     text-align: start;
-    margin-inline-start: auto;
-    margin-inline-end: auto; }
+    padding-inline-end: 9rem; }
   .all_description {
     max-width: 446px;
     padding-inline-end: 32rem; }
@@ -52,9 +53,7 @@ body {
   font-family: 'Lato'; }
 
 .masthead {
-  background-color: #f4f6f9;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem; }
+  background-color: #f4f6f9; }
 
 .sport_app {
   max-width: 500px; }
@@ -106,6 +105,12 @@ ul {
   padding: 2rem;
   font-size: 16px; }
 
+@media (min-width: 1025px) {
+  .download__navigation {
+    margin: 0;
+    align-items: flex-start;
+    justify-content: start; } }
+
 @font-face {
   font-family: 'Lato';
   src: local("lato bold"), local("lato-bold"), url("../fonts/lato-bold.woff2") format("woff2"), url("../fonts/lato-bold.woff") format("woff");
@@ -128,7 +133,12 @@ ul {
 .description {
   font-family: 'Lato';
   font-size: 16px;
-  line-height: 26px; }
+  line-height: 26px;
+  padding: 1rem; }
+
+@media (min-width: 1025px) {
+  .description {
+    padding: 0rem; } }
 
 /* Interface files */
 .start_game__link {
@@ -140,7 +150,8 @@ ul {
   margin-block-start: 3.5rem; }
 
 .user_interface {
-  max-height: 343px; }
+  max-height: 343px;
+  padding: 1rem; }
 
 .start_game {
   padding-block-start: 80px;
@@ -187,7 +198,9 @@ ul {
     background-position-y: 50%;
     background-size: 2000px; }
   .interfacing {
-    max-width: 546px; } }
+    max-width: 546px; }
+  .user_interface {
+    padding: 0rem; } }
 
 /* Features */
 .features {
