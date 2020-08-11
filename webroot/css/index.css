@@ -247,10 +247,6 @@ ul {
   padding-inline-end: 1rem;
   padding-inline-start: 1rem; }
 
-.sky_sports_icon {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-
 .sky_sport__header {
   font-weight: bold;
   font-size: 28px;
@@ -260,55 +256,69 @@ ul {
 .sport_link {
   color: transparent; }
 
-.operators__navigation {
+.sky_sports_icon {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0; }
+  align-items: stretch; }
+
+.sky_sports {
+  flex-grow: 3; }
 
 .sport_link {
-  padding: 35px;
-  background-size: 102px; }
+  padding: 1rem;
+  min-height: 58px;
+  display: block; }
 
-.sky_sportps {
-  padding: 1rem; }
+.sky_sports:nth-of-type(1) {
+  flex-basis: 50%; }
+
+.sky_sports:nth-of-type(2) {
+  flex-basis: 50%; }
+
+.sky_sports:nth-of-type(3) {
+  flex-basis: 30%; }
+
+.sky_sports:nth-of-type(4) {
+  flex-basis: 40%; }
+
+.sky_sports:nth-of-type(5) {
+  flex-basis: 30%; }
+
+.sky_sports:last-of-type {
+  flex-grow: 5;
+  flex-basis: 100%; }
 
 .sport_tv {
   background-image: url("../img/logo_sports_tv.svg");
   background-repeat: no-repeat;
-  background-position: 100%;
-  margin-block-start: 0;
-  padding-inline-end: 60px;
-  padding-block-end: 14px;
-  margin-top: -17px; }
+  background-position: 50%; }
 
 .sport {
   background-image: url("../img/logo_sports_channel.svg");
   background-repeat: no-repeat;
-  margin: 0;
-  background-position: 100%; }
+  background-position: 50%; }
 
 .nbc {
   background-image: url("../img/logo_nbc_sports.svg");
   background-repeat: no-repeat;
-  background-position: 100%; }
+  background-position: 50%; }
 
 .designer {
   background-image: url("../img/logo_designer_technology.svg");
   background-repeat: no-repeat;
-  background-position: 100%; }
+  background-position: 50%; }
 
-.dn {
+.nd {
   background-image: url("../img/logo_designer_news.svg");
   background-repeat: no-repeat;
-  background-position: 100%; }
+  background-position: 50%; }
 
 .sky_logo {
   background-image: url("../img/logo_sky_sports.svg");
   background-repeat: no-repeat;
-  padding-inline-end: 46px;
-  padding-inline-start: 46px;
-  background-position: 100%; }
+  background-position: 50%; }
 
 .sky_sports__logo {
   padding-top: 1rem; }
@@ -323,16 +333,19 @@ ul {
     margin-inline-start: auto;
     margin-inline-end: auto;
     padding: 0; }
-  .sky_sports__logo {
-    padding-top: 28px; }
-  .sky_sport__TV {
-    margin: 0; }
-  .sky_sportps {
-    margin: 25px; }
-  .operators {
-    padding-top: 20px; }
-  .operators__list_item {
-    margin-inline-end: 2rem; } }
+  .sky_sports:nth-of-type(1) {
+    flex-basis: unset; }
+  .sky_sports:nth-of-type(2) {
+    flex-basis: unset; }
+  .sky_sports:nth-of-type(3) {
+    flex-basis: unset; }
+  .sky_sports:nth-of-type(4) {
+    flex-basis: unset; }
+  .sky_sports:nth-of-type(5) {
+    flex-basis: unset; }
+  .sky_sports:last-of-type {
+    flex-grow: 5;
+    flex-basis: unset; } }
 
 /* Footer */
 .sport_footer {
@@ -347,39 +360,42 @@ ul {
   margin: auto; }
 
 .sports_logo {
-  padding-block-end: 1rem; }
+  padding-block-end: 1rem;
+  max-width: 24px; }
 
 .sports_logo__link {
   color: transparent;
   background-image: url("../img/logo_sports_colour.svg");
   background-repeat: no-repeat;
-  padding-inline-start: 1rem;
-  padding-inline-end: 3rem;
-  padding-block-end: 10px; }
+  background-position: 50%;
+  padding: 20px; }
 
 .twitter {
   background-image: url("../img/icon_twitter.svg");
   background-repeat: no-repeat;
-  padding: 10px; }
+  background-position: 50%; }
 
 .facebook {
   background-image: url("../img/icon_facebook.svg");
   background-repeat: no-repeat;
-  padding: 10px; }
+  background-position: 50%; }
 
 .instegram {
   background-image: url("../img/icon_instagram.svg");
   background-repeat: no-repeat;
-  padding: 10px; }
+  background-position: 50%; }
 
 .social_media {
   display: flex;
   flex-direction: row;
   margin-block-start: 10px;
+  margin-block-end: 3rem;
   padding: 0rem; }
 
 .social_media_link {
-  color: transparent; }
+  color: transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .more_info {
   padding: 0;
@@ -402,9 +418,7 @@ ul {
     justify-content: space-between;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    padding-inline-start: 2rem;
-    padding-inline-end: 2rem;
-    max-width: calc(100% - calc(136px * 2)); }
+    padding-block-end: 0; }
   .sports_logo {
     order: 1;
     margin: 0; }
@@ -413,4 +427,6 @@ ul {
   .more_info {
     order: 2;
     padding: 0;
-    margin: 0; } }
+    margin: 0; }
+  .more_info__list_item {
+    padding-inline-end: 1rem; } }
