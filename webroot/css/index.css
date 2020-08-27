@@ -103,7 +103,9 @@ ul {
 .download__list_item__link {
   color: transparent;
   padding: 2rem;
-  font-size: 16px; }
+  font-size: 16px;
+  max-width: 200px;
+  display: block; }
 
 @media (min-width: 1025px) {
   .download__navigation {

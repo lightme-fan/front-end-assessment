@@ -38,6 +38,8 @@
   color: transparent;
   padding: $base-padding * 2;
   font-size: 16px;
+  max-width: 200px;
+  display: block;
 }
 
 @media(min-width: 1025px) {
