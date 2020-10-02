@@ -5,20 +5,24 @@
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
-  color: #00ADEE;
-  margin-block-start: 55px;
+  color: $interface-link-color;
+  margin-block-start: $base-margin * 3.5;
 }
 
 .user_interface {
-  margin: 22px;
   max-height: 343px;
+  padding: $base-padding;
 }
 
+.start_game {
+  padding-block-start: 80px;
+  padding-block-end: 27px;
+}
 .user_interface__heading {
   font-weight: 700;
   font-size: 28px;
   line-height: 37px;
-  padding-block-end: 27px;
+  padding-block-end: $base-padding * 1.7;
 }
 
 .user_interface__description {
@@ -27,14 +31,50 @@
   line-height: 23px;
 }
 
-.learn_more {
+.interface {
+  padding-bottom: 652px;
+  background-image: url('../img/bg_friendly_user_interface copy.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: calc(100% + 652px);;
+  background-size: 2000px;
+}
+
+.learn-more {
+  padding-block-start: $base-padding * 2;
+}
+
+.learn_more__link {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  color: #00ADEE;
+  color: $interface-link-color;
 }
 
-.interface {
-  background-image: url('../source-materials/imagery/bg_friendly_user_interface.png');
-  background-repeat: no-repeat;
+@media(min-width: 1025px) {
+
+  // Inderface on desktop
+  .interface_container {
+    text-align: start;
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .interface {
+    padding-bottom: 220px;
+    background-image: url('../img/bg_friendly_user_interface copy.png');
+    background-position-x: calc(50% + 350px);
+    background-position-y: 50%;
+    background-size: 2000px;
+  }
+
+  .interfacing {
+    max-width: 546px;
+  }
+
+  .user_interface {
+    padding: $base-padding * 0;
+  }
+
 }

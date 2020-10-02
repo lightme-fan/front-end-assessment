@@ -1,0 +1,71 @@
+@import "variable";
+.features {
+  background-color: #FAFAFA;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.features_container {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-start: $base-padding * 3;
+  padding-block-end: $base-padding * 3;
+}
+
+.feature_header {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  padding-block-start: 81px;
+}
+
+.feature__experience_navigation {
+  padding: $base-padding * 0;
+}
+
+.feature__experience_list-item {
+  margin-block-start: $base-margin * 2;
+}
+
+.icon {
+  margin: $base-margin * 0;
+}
+
+@media(min-width: 1025px) {
+
+  /* Feature*/
+
+  .features_container {
+    background-color: #00ADEE;
+    color: #FFFFFF;
+  }
+
+  .feature__experience {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
+  .feature__experience_navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-gap: 1rem;
+    text-align: start;
+  }
+
+  .icon {
+    padding-block-start: 16px;
+  }
+
+  .icon::before {
+    content: "• ";
+    color: #FFFFFF;
+  }
+
+  .feature__experience_list-item > svg > path {
+    fill: #FFFFFF;
+    margin-inline-end: 1rem;
+  }
+}

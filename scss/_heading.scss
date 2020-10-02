@@ -1,12 +1,70 @@
 @import "variable";
 
+.masthead {
+  padding: 0;
+}
+
 .masthead_heading--logo {
-  padding-block-start: 30px;
-  padding-block-end: 50px;
   margin: $base-margin * 0;
 }
 
 .masthead_heading__image {
   width: 120px;
   height: 60px;
+}
+
+@media(min-width: 1025px) {
+  ul {
+    padding: 0;
+  }
+
+  .bg-header {
+    display: block;
+    margin-block-start: $base-margin;
+  }
+
+
+  .masthead {
+    text-align: $base-text-align;
+    display: $base-display;
+    padding-inline-end: 1rem;
+    padding-inline-start: 0;
+    background-image: url('../img/bg__header.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+
+  .masthead_heading--logo {
+    font-size: 33px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    margin: $base-margin * 0;
+    padding-block-end: 130px;
+  }
+
+  .desciption {
+    font-size: 15px;
+    line-height: 28px;
+    padding-block-end: $base-padding * 0;
+  }
+
+  .explanation {
+    max-width: 1114px;
+    text-align: start;
+    padding-inline-end: $base-padding * 9;
+  }
+
+  .all_description {
+    max-width: 446px;
+    padding-inline-end: $base-padding * 32;
+  }
+
+  .sport_app__download_navigation__list_item {
+    margin-inline-end: $base-margin;
+  }
+
+  .download__navigation {
+    justify-content: unset;
+    margin: $base-margin * 0;
+  }
 }
